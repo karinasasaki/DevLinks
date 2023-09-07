@@ -25,22 +25,19 @@ body * {
 
 .profile {
   text-align: center;
-  border:  1px solid #FFF;
 }
 
 .profile img {
   width: 112px;
   height: 112px;
-  border-radius: 100%;
+  border-radius: 50%;
   object-fit: cover;
-  border:  1px solid #FFF;
 }
 
 .profile p {
   font-weight: 500;
   line-height: 24px;
   margin-top: 8px;
-  border:  1px solid #FFF;
 }
 
 ul {
@@ -48,6 +45,7 @@ ul {
   display: flex;
   flex-direction: column;
   gap: 16px;
+  padding: 24px 0;
 }
 
 ul li a {
@@ -69,4 +67,29 @@ ul li a:hover {
   border:  1.5px solid #FFF;
   background-color: rgba(255, 255, 255, 0.05);
 
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  border:  1px solid #FFF;
+  padding: 24px 0;
+}
+
+.social-links svg {
+  height: 24px;
+  fill: #FFF
+}
+
+.social-links a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px;
+  transition: background-color 0.2s;
+  border-radius: 50%;
+}
+
+.social-links a:hover {
+  background-color: rgba(255, 255, 255, 0.2);
 }
