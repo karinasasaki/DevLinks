@@ -20,11 +20,11 @@ body * {
   width: 360px;
   border:  1px solid #FFF;
   margin: 56px auto 0px;
+  padding: 24px;
 }
 
 .profile {
   text-align: center;
-  padding: 24px;
   border:  1px solid #FFF;
 }
 
@@ -41,4 +41,32 @@ body * {
   line-height: 24px;
   margin-top: 8px;
   border:  1px solid #FFF;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+ul li a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border:  1px solid rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 16px 24px;
+  border-radius: 8px;
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  text-decoration: none;
+  font-weight: 500;
+  transition: background-color 0.2s;
+}
+
+ul li a:hover {
+  border:  1.5px solid #FFF;
+  background-color: rgba(255, 255, 255, 0.05);
+
 }
