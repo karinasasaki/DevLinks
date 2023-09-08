@@ -6,19 +6,35 @@
   box-sizing: border-box;
 }
 
+:root {
+  --text-color: #FFF;
+  --bg-url: url(assets/bg-mobile-dark.png);
+  --stroke-color: rgba(255, 255, 255, 0.5);
+  --surface-color: rgba(255, 255, 255, 0.1);
+  --surface-color-hover: rgba(255, 255, 255, 0.2);
+  --highlight-color: rgba(255, 255, 255, 0.2);
+}
+
+.light {
+  --text-color: #000;
+  --bg-url: url(assets/bg-mobile-light.png);
+  --stroke-color: rgba(0, 0, 0, 0.5);
+  --surface-color: rgba(0, 0, 0, 0.05);
+  --surface-color-hover: rgba(0, 0, 0, 0.2);
+  --highlight-color: rgba(0, 0, 0, 0.1);
+}
+
 body {
-  background: url(assets/bg-mobile-dark.png) no-repeat top center/cover;
-  border:  1px solid #FFF;
+  background: var(--bg-url) no-repeat top center/cover;
 }
 
 body * {
   font-family: 'Inter', sans-serif;
-  color: #FFF;
+  color: var(--text-color);
 }
 
 .container {
   width: 360px;
-  border:  1px solid #FFF;
   margin: 56px auto 0px;
   padding: 24px;
 }
@@ -52,8 +68,8 @@ ul li a {
   display: flex;
   justify-content: center;
   align-items: center;
-  border:  1px solid rgba(255, 255, 255, 0.5);
-  background-color: rgba(255, 255, 255, 0.1);
+  border:  1px solid var(--stroke-color);
+  background-color: var(--surface-color);
   padding: 16px 24px;
   border-radius: 8px;
   backdrop-filter: blur(4px);
@@ -64,21 +80,20 @@ ul li a {
 }
 
 ul li a:hover {
-  border:  1.5px solid #FFF;
-  background-color: rgba(255, 255, 255, 0.05);
+  border:  1.5px solid var(--text-color);
+  background-color: var(--surface-color-hover);
 
 }
 
 .social-links {
   display: flex;
   justify-content: center;
-  border:  1px solid #FFF;
   padding: 24px 0;
 }
 
 .social-links svg {
   height: 24px;
-  fill: #FFF
+  fill: var(--text-color)
 }
 
 .social-links a {
@@ -91,5 +106,5 @@ ul li a:hover {
 }
 
 .social-links a:hover {
-  background-color: rgba(255, 255, 255, 0.2);
+  background-color: var(--highlight-color);
 }
