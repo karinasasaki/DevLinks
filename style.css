@@ -6,9 +6,9 @@
   box-sizing: border-box;
 }
 
-:root {
+.dark {
   --text-color: #FFF;
-  --bg-url: url(assets/bg-mobile-dark.png);
+  --bg-url: url(assets/bg-desktop-dark.png);
   --stroke-color: rgba(255, 255, 255, 0.5);
   --surface-color: rgba(255, 255, 255, 0.1);
   --surface-color-hover: rgba(255, 255, 255, 0.2);
@@ -18,7 +18,7 @@
 
 .light {
   --text-color: #000;
-  --bg-url: url(assets/bg-mobile-light.png);
+  --bg-url: url(assets/bg-desktop-light.png);
   --stroke-color: rgba(0, 0, 0, 0.5);
   --surface-color: rgba(0, 0, 0, 0.05);
   --surface-color-hover: rgba(0, 0, 0, 0.2);
