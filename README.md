@@ -2,7 +2,7 @@
 
 Projeto do [Curso de introdução à tecnologia](https://www.google.com/aclk?sa=l&ai=DChcSEwjNjIWy2KGBAxVjQUgAHVbEBCoYABABGgJjZQ&gclid=EAIaIQobChMIzYyFstihgQMVY0FIAB1WxAQqEAAYASABEgIeb_D_BwE&sig=AOD64_2dRLgBe409LxYGl_zfplRfivMUqA&adurl&ved=2ahUKEwjt2ICy2KGBAxVpqpUCHalpDm8QqyQoAHoECAgQCw) promovido pela Rocketseat.
 
-![Preview do projeto.](\.github\preview.png)
+![Preview do projeto.](https://github.com/karinasasaki/linktree/blob/main/.github/preview.png?raw=true)
 
 ## 🚀 Tecnologias
 
