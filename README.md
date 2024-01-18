@@ -1,6 +1,6 @@
 <h1 align="center"> DevLinks </h1>
 
-Projeto do curso [Discover](https://www.google.com/aclk?sa=l&ai=DChcSEwjNjIWy2KGBAxVjQUgAHVbEBCoYABABGgJjZQ&gclid=EAIaIQobChMIzYyFstihgQMVY0FIAB1WxAQqEAAYASABEgIeb_D_BwE&sig=AOD64_2dRLgBe409LxYGl_zfplRfivMUqA&adurl&ved=2ahUKEwjt2ICy2KGBAxVpqpUCHalpDm8QqyQoAHoECAgQCw) promovido pela Rocketseat.
+Projeto do curso [Discover](https://www.rocketseat.com.br/discover) promovido pela Rocketseat.
 
 ![Preview do projeto.](https://github.com/karinasasaki/linktree/blob/main/.github/preview.png?raw=true)
 
